@@ -8,5 +8,5 @@ def nixuL(L):
 
 user_input = input("请输入一个列表: ")
 L = eval(user_input)
-
+print(L)
 nixuL(L)
