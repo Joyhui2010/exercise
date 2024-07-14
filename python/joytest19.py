@@ -9,7 +9,7 @@ def weishu(num):
 def nixu(num):
         str1= str(num)
         p=str1[::-1]
-        print (p)
+        return (p)
 
 input_num = int(input("input a num:"))
 print(weishu(input_num))
